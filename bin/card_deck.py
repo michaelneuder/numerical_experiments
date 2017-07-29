@@ -12,8 +12,8 @@ class deck(object):
         card_id = 0
         for suit in self.suits:
             for value in self.values:
-                self.cards[card_id] = (value, suit)
-                self.current_state.append((value, suit))
+                self.cards[card_id] = [value, suit]
+                self.current_state.append([value, suit])
                 card_id += 1
         if start_shuffled:
             self.shuffle()
