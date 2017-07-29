@@ -46,8 +46,6 @@ class deck(object):
 def main():
     np.random.seed(0)
     deck_ = deck()
-    print(deck_.deal(10))
-    print(len(deck_.current_state))
 
 if __name__ == '__main__':
     main()
