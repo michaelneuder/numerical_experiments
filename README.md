@@ -1,5 +1,3 @@
-# blackjack
-a monte carlo expirement to determine the probability of winning blackjack when playing against the house. 
+# numerical experiments
 
-## idea
-using large amounts of simulation data to estimate a numeric result for winning at blackjack.  
+using monte carlo and stochastic processes to estimate some numerical values.
