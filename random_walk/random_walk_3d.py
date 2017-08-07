@@ -19,8 +19,11 @@ class location(object):
     def get_z(self):
         return self.z
 
+    def get_distance(self):
+        return np.sqrt(self.x**2 + self.y**2 + self.z**2)
+
     def __str__(self):
-        return '<' + str(self.x) + ', ' + str(self.y) + ', ' +str(self.z) + '>'
+        return '<{:.3f}, {:.3f}, {:.3f}> distance from home = {:.4f}'.format(self.x, self.y, self.z, self.get_distance())
 
 class walker(object):
     ''' an object which takes many random steps '''
@@ -92,7 +95,20 @@ class simulation(object):
             ax.plot(x_hist, y_hist, z_hist, alpha=.5)
         plt.axis(show_axis)
         plt.show()
-        exit()
+
+class simulation_non_graphical(object):
+    ''' runs the simulation '''
+    def __init__(self, num_walkers, num_steps, show_axis = 'on'):
+        self.space_ = space()
+        for i in range(num_walkers):
+            self.space_.add_walker()
+        for walker in self.space_.walkers:
+            for step in range(num_steps):
+                self.space_.walkers[walker].take_step()
+            print(self.space_.walkers[walker])
+        for walker in self.space_.walkers:
+            pass
+
 
 def main():
     print('welcome to the random walker simulation. ')
