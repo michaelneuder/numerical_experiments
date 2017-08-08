@@ -105,16 +105,21 @@ class simulation_non_graphical(object):
         for walker in self.space_.walkers:
             for step in range(num_steps):
                 self.space_.walkers[walker].take_step()
-            print(self.space_.walkers[walker])
+        self.distances = []
         for walker in self.space_.walkers:
-            pass
+            dist = self.space_.walkers[walker].get_current_loc().get_distance()
+            self.distances.append(dist)
 
+    def get_distances(self):
+        return np.asarray(self.distances)
 
 def main():
     print('welcome to the random walker simulation. ')
-    num_walkers = int(input('how many walkers do you want? '))
-    num_steps = int(input('how many steps should each walker take? '))
-    sim = simulation(num_walkers, num_steps)
+    # num_walkers = int(input('how many walkers do you want? '))
+    # num_steps = int(input('how many steps should each walker take? '))
+    sim = simulation_non_graphical(10, 100)
+    distances = sim.get_distances()
+    print(distances.mean())
 
 if __name__ == '__main__':
     main()
