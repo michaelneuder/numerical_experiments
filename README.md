@@ -16,4 +16,5 @@ each experiment has a accompanying jupyter notebook that explains the process an
  ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/stick_break_avg.png)
  ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/100w_10000s_aon.png)
  ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/3w_10000s_aon.png)
+ ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/rand_walk.png)
  
