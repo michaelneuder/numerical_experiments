@@ -6,7 +6,7 @@ each experiment has a accompanying jupyter notebook that explains the process an
  - [pi approximation using area ratios](https://github.com/michaelneuder/numerical_experiments/blob/master/pi/pi_approximation.ipynb)
  - [modeling average stick length after n breaks](https://github.com/michaelneuder/numerical_experiments/blob/master/stick_breaking/stick_breaking.ipynb)
   - [random walks and distance from home](https://github.com/michaelneuder/numerical_experiments/blob/master/random_walk/random_walks.ipynb)
-  - [the results of a playing blackjack against the house](https://github.com/michaelneuder/numerical_experiments/blob/master/blackjack/bin/blackjack.py)
+  - [solving nonelementary definite integrals using monte carlo](https://github.com/michaelneuder/numerical_experiments/blob/master/integrals/integrals.ipynb)
   
 ### pictures:
  to get the full story check out the notebooks! everything is explained there.
@@ -17,4 +17,6 @@ each experiment has a accompanying jupyter notebook that explains the process an
  ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/100w_10000s_aon.png)
  ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/3w_10000s_aon.png)
  ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/rand_walk.png)
+ ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/int_region.png)
+ ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/int_approx.png)
  
