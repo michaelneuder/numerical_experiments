@@ -21,4 +21,5 @@ each experiment has a accompanying jupyter notebook that explains the process an
  ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/int_region.png)
  ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/int_approx.png)
  ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/heat_blackjack.png)
- 
+ ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/bj_probs.png)
+ ![](https://github.com/michaelneuder/numerical_experiments/blob/master/img/bj_probs_stacked.png)
