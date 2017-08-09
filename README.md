@@ -7,7 +7,7 @@ each experiment has a accompanying jupyter notebook that explains the process an
  - [modeling average stick length after n breaks](https://github.com/michaelneuder/numerical_experiments/blob/master/stick_breaking/stick_breaking.ipynb)
   - [random walks and distance from home](https://github.com/michaelneuder/numerical_experiments/blob/master/random_walk/random_walks.ipynb)
   - [solving nonelementary definite integrals using monte carlo](https://github.com/michaelneuder/numerical_experiments/blob/master/integrals/integrals.ipynb)
-  - [assorted results from examing a number of card games](https://github.com/michaelneuder/numerical_experiments/blob/master/cards/cards.ipynb)
+  - [assorted results from examing the card game blackjack](https://github.com/michaelneuder/numerical_experiments/blob/master/cards/blackjack.ipynb)
   
 ### pictures:
  to get the full story check out the notebooks! everything is explained there.
